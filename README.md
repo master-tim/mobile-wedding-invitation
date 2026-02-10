@@ -14,26 +14,52 @@ A beautiful, mobile-responsive wedding invitation website featuring smooth GSAP 
 
 ## � Screenshots
 
-![Hero Section](public/screenshots/hero-section.png)
-_Hero Section - Main wedding invitation header_
-
-![Invitation](public/screenshots/invitation-section.png)
-_Invitation Section - Wedding details and couple information_
-
-![Menu Navigation](public/screenshots/menu-section.png)
-_Menu Section - Navigation and sections overview_
-
-![Photo Album](public/screenshots/album-section.png)
-_Album Section - Beautiful wedding photo showcase_
-
-![Image Detail View](public/screenshots/image-opened.png)
-_Image Detail - Expanded photo gallery view_
-
-![Interactive Map](public/screenshots/map-section.png)
-_Map Section - Kakao Map integration for venue location_
-
-![Contact Information](public/screenshots/contact-section.png)
-_Contact Section - RSVP and contact details_
+<table>
+  <tr>
+    <td width="50%">
+      <img src="public/screenshots/hero-section.png" alt="Hero Section" />
+      <br />
+      <sub>Hero Section - Main wedding invitation header</sub>
+    </td>
+    <td width="50%">
+      <img src="public/screenshots/invitation-section.png" alt="Invitation" />
+      <br />
+      <sub>Invitation Section - Wedding details and couple information</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="public/screenshots/menu-section.png" alt="Menu Navigation" />
+      <br />
+      <sub>Menu Section - Navigation and sections overview</sub>
+    </td>
+    <td width="50%">
+      <img src="public/screenshots/album-section.png" alt="Photo Album" />
+      <br />
+      <sub>Album Section - Beautiful wedding photo showcase</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="public/screenshots/image-opened.png" alt="Image Detail View" />
+      <br />
+      <sub>Image Detail - Expanded photo gallery view</sub>
+    </td>
+    <td width="50%">
+      <img src="public/screenshots/map-section.png" alt="Interactive Map" />
+      <br />
+      <sub>Map Section - Kakao Map integration for venue location</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="public/screenshots/contact-section.png" alt="Contact Information" />
+      <br />
+      <sub>Contact Section - RSVP and contact details</sub>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
 ## �🚀 Quick Start
 
