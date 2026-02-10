@@ -158,9 +158,8 @@ export const WEDDING_DATA = {
 
   // Images
   images: {
-    main: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
-    background:
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1200&q=80",
+    main: "/gallery/main.jpg",
+    background: "/gallery/main.jpg",
     gallery: [
       {
         src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
