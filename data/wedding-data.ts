@@ -188,12 +188,12 @@ export const WEDDING_DATA = {
         isHorizontal: false,
       },
       {
-        src: "https://images.unsplash.com/photo-1525772504696-2aedc2db4b61?w=1200&q=80",
+        src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&q=80",
         alt: "Wedding moment 6",
         isHorizontal: true,
       },
       {
-        src: "https://images.unsplash.com/photo-1594552072238-93c3b6e580f1?w=800&q=80",
+        src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
         alt: "Wedding moment 7",
         isHorizontal: false,
       },
@@ -213,7 +213,7 @@ export const WEDDING_DATA = {
         isHorizontal: false,
       },
       {
-        src: "https://images.unsplash.com/photo-1522673607211-8e86e27bf19b?w=800&q=80",
+        src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&q=80",
         alt: "Wedding moment 11",
         isHorizontal: false,
       },
@@ -238,12 +238,12 @@ export const WEDDING_DATA = {
         isHorizontal: true,
       },
       {
-        src: "https://images.unsplash.com/photo-1545921669-0f9c0d3eeb2d?w=800&q=80",
+        src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
         alt: "Wedding moment 16",
         isHorizontal: false,
       },
       {
-        src: "https://images.unsplash.com/photo-1535743326314-6f94c4c6f8da?w=800&q=80",
+        src: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=800&q=80",
         alt: "Wedding moment 17",
         isHorizontal: false,
       },
@@ -253,12 +253,12 @@ export const WEDDING_DATA = {
         isHorizontal: true,
       },
       {
-        src: "https://images.unsplash.com/photo-1525258801551-28b88a5ae46a?w=800&q=80",
+        src: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=80",
         alt: "Wedding moment 19",
         isHorizontal: false,
       },
       {
-        src: "https://images.unsplash.com/photo-1532706280327-6c645e3da6fe?w=800&q=80",
+        src: "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=800&q=80",
         alt: "Wedding moment 20",
         isHorizontal: false,
       },
@@ -293,17 +293,17 @@ export const WEDDING_DATA = {
         isHorizontal: false,
       },
       {
-        src: "https://images.unsplash.com/photo-1543086765-e0c93c645df9?w=1200&q=80",
+        src: "https://images.unsplash.com/photo-1460978812857-470ed1c77af0?w=1200&q=80",
         alt: "Wedding moment 27",
         isHorizontal: true,
       },
       {
-        src: "https://images.unsplash.com/photo-1528419683441-b4d0cf436e58?w=800&q=80",
+        src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80",
         alt: "Wedding moment 28",
         isHorizontal: false,
       },
       {
-        src: "https://images.unsplash.com/photo-1550005809-91ad1c1210f4?w=800&q=80",
+        src: "https://images.unsplash.com/photo-1529636798458-92182e662485?w=800&q=80",
         alt: "Wedding moment 29",
         isHorizontal: false,
       },
