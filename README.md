@@ -69,9 +69,29 @@ Edit [`data/wedding-data.ts`](data/wedding-data.ts) with your wedding informatio
 - Bank account information for gifts
 - Transportation directions
 
-### 2. Add Your Photos
+### 2. Update Images
 
-Place your wedding photos in the `public/gallery/` folder and update the gallery section.
+Edit the images in [`data/wedding-data.ts`](data/wedding-data.ts) in the `images` section:
+
+```typescript
+images: {
+  main: "your-main-photo-url",
+  background: "your-background-photo-url",
+  gallery: [
+    {
+      src: "photo-url",
+      alt: "Photo description",
+      isHorizontal: false, // true for landscape, false for portrait
+    },
+    // Add more photos...
+  ],
+}
+```
+
+You can use:
+- Unsplash URLs (free stock photos)
+- Your own images hosted on image CDN services (Cloudinary, Imgix, etc.)
+- Local images in `public/gallery/` folder (use `/gallery/filename.jpg`)
 
 ### 3. Adjust Map Coordinates
 
@@ -84,7 +104,7 @@ coordinates: {
 }
 ```
 
-##  Tech Stack
+## 🎨 Tech Stack
 
 - **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
 - **Language**: TypeScript
@@ -112,6 +132,7 @@ wedding-invite/
 │   ├── SmoothScroll.tsx
 │   ├── TransportSection.tsx
 │   ├── VenueSection.tsx
+│   ├── index.ts
 │   └── gsap/
 │       └── ScrollSection.tsx
 ├── data/
@@ -121,7 +142,10 @@ wedding-invite/
 ├── lib/
 │   └── gsap/                 # GSAP configuration
 ├── public/
-│   └── gallery/              # Wedding photos
+│   └── gallery/              # (Optional) Local wedding photos
+├── types/
+│   └── global.d.ts           # TypeScript type definitions
+├── middleware.ts             # Middleware configuration
 └── .env                      # Environment variables
 ```
 
