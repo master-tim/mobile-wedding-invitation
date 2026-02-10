@@ -89,6 +89,7 @@ images: {
 ```
 
 You can use:
+
 - Unsplash URLs (free stock photos)
 - Your own images hosted on image CDN services (Cloudinary, Imgix, etc.)
 - Local images in `public/gallery/` folder (use `/gallery/filename.jpg`)
