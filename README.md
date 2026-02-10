@@ -1,6 +1,8 @@
-# 💒 Wedding Invitation Template
+# 💒 Wedding Invitation Website
 
-A beautiful, modern Korean wedding invitation website built with Next.js 15, TypeScript, and GSAP animations.
+A beautiful, mobile-responsive wedding invitation website featuring smooth GSAP animations, Kakao Map integration, photo gallery, venue details, and transport information. Built with Next.js 15, TypeScript, and Tailwind CSS.
+
+모던하고 반응형 모바일 웨딩 청첩장 웹사이트입니다. GSAP 애니메이션, 카카오맵 연동, 포토 갤러리, 오시는 길 안내 기능을 제공합니다. Next.js 15, TypeScript, Tailwind CSS로 제작되었습니다.
 
 ## ✨ Features
 
