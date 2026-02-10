@@ -10,7 +10,6 @@ A beautiful, mobile-responsive wedding invitation website featuring smooth GSAP 
 - 📱 **Responsive Design**: Looks perfect on all devices
 - 🗺️ **Interactive Map**: Integrated Kakao Maps for venue location
 - 🖼️ **Photo Gallery**: Beautiful gallery to showcase your wedding photos
-- 🎯 **RSVP System**: Contact section for guests to respond
 - 🚌 **Transport Information**: Detailed directions via subway, bus, and car
 
 ## 🚀 Quick Start
@@ -70,25 +69,11 @@ Edit [`data/wedding-data.ts`](data/wedding-data.ts) with your wedding informatio
 - Bank account information for gifts
 - Transportation directions
 
-### 2. Update Images
+### 2. Add Your Photos
 
-Replace the Unsplash URLs in [`messages/kr/images.json`](messages/kr/images.json)
+Place your wedding photos in the `public/gallery/` folder and update the gallery section.
 
-You can either:
-
-- Use your own images (place them in `public/gallery/`)
-- Use Unsplash URLs (free stock photos)
-- Use any other image hosting service
-
-### 3. Customize Translations
-
-Update the text in the message files in [`messages/kr/`](messages/kr/):
-
-- `en.json` - English translations
-- `ko.json` - Korean translations
-- `images.json` - Image URLs
-
-### 4. Adjust Map Coordinates
+### 3. Adjust Map Coordinates
 
 Update the venue coordinates in [`data/wedding-data.ts`](data/wedding-data.ts):
 
@@ -99,17 +84,12 @@ coordinates: {
 }
 ```
 
-## 🌐 Language
-
-The template is configured for Korean language. The messages are loaded from [`messages/kr/ko.json`](messages/kr/ko.json).
-
-## 🎨 Tech Stack
+##  Tech Stack
 
 - **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: GSAP (GreenSock)
-- **Internationalization**: next-intl
 - **Maps**: Kakao Maps API
 
 ## 📦 Project Structure
@@ -123,12 +103,10 @@ wedding-invite/
 ├── components/               # React components
 │   ├── AnimatedSection.tsx
 │   ├── ContactSection.tsx
-│   ├── CountrySwitcher.tsx
 │   ├── FooterSection.tsx
 │   ├── GallerySection.tsx
 │   ├── HeroSection.tsx
 │   ├── IntroSection.tsx
-│   ├── LanguageSwitcher.tsx
 │   ├── MapSection.tsx
 │   ├── Navigation.tsx
 │   ├── SmoothScroll.tsx
@@ -140,13 +118,8 @@ wedding-invite/
 │   └── wedding-data.ts        # Wedding information
 ├── hooks/
 │   └── useGSAP.ts            # GSAP hooks
-├── i18n/
-│   ├── request.ts            # i18n request handler
-│   └── routing.ts            # Routing configuration
 ├── lib/
 │   └── gsap/                 # GSAP configuration
-├── messages/                  # Translation files
-│   └── kr/                   # Korea translations
 ├── public/
 │   └── gallery/              # Wedding photos
 └── .env                      # Environment variables
