@@ -12,7 +12,30 @@ A beautiful, mobile-responsive wedding invitation website featuring smooth GSAP 
 - 🖼️ **Photo Gallery**: Beautiful gallery to showcase your wedding photos
 - 🚌 **Transport Information**: Detailed directions via subway, bus, and car
 
-## 🚀 Quick Start
+## � Screenshots
+
+![Hero Section](public/screenshots/hero-section.png)
+_Hero Section - Main wedding invitation header_
+
+![Invitation](public/screenshots/invitation-section.png)
+_Invitation Section - Wedding details and couple information_
+
+![Menu Navigation](public/screenshots/menu-section.png)
+_Menu Section - Navigation and sections overview_
+
+![Photo Album](public/screenshots/album-section.png)
+_Album Section - Beautiful wedding photo showcase_
+
+![Image Detail View](public/screenshots/image-opened.png)
+_Image Detail - Expanded photo gallery view_
+
+![Interactive Map](public/screenshots/map-section.png)
+_Map Section - Kakao Map integration for venue location_
+
+![Contact Information](public/screenshots/contact-section.png)
+_Contact Section - RSVP and contact details_
+
+## �🚀 Quick Start
 
 ### Prerequisites
 
