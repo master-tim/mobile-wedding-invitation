@@ -13,11 +13,11 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Wedding Invitation",
-  description: "We joyfully invite you to celebrate our wedding",
+  title: "모바일 청첩장",
+  description: "소중한 분들을 저희 결혼식에 초대합니다",
   openGraph: {
-    title: "Wedding Invitation",
-    description: "We joyfully invite you to celebrate our wedding",
+    title: "모바일 청첩장",
+    description: "소중한 분들을 저희 결혼식에 초대합니다",
     type: "website",
   },
 };

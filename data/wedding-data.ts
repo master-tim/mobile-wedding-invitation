@@ -1,5 +1,5 @@
 export const WEDDING_DATA = {
-  // Couple information
+  // 신랑신부 정보
   groom: {
     name: "김민수",
     phone: "010-0000-0000",
@@ -71,7 +71,7 @@ export const WEDDING_DATA = {
     },
   },
 
-  // Wedding details
+  // 예식 정보
   date: "2026.12.25 SAT PM 2:00",
   venue: {
     name: "그랜드 호텔 연회장",
@@ -84,7 +84,7 @@ export const WEDDING_DATA = {
     },
   },
 
-  // UI Content
+  // UI 텍스트
   content: {
     navigation: {
       home: "홈",
@@ -156,7 +156,7 @@ export const WEDDING_DATA = {
     },
   },
 
-  // Images
+  // 이미지
   images: {
     main: "/gallery/main.jpg",
     background: "/gallery/main.jpg",
