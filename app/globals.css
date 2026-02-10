@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+/* Theme tokens */
+:root {
+  /* Colors - Soft romantic palette */
+  --color-primary: #c9a87c; /* Gold/champagne */
+  --color-primary-light: #e8d4b8;
+  --color-secondary: #f5ebe0; /* Cream */
+  --color-accent: #d4a5a5; /* Dusty rose */
+  --color-text: #5c5c5c; /* Soft gray */
+  --color-text-light: #8a8a8a;
+  --color-background: #fdfcfb; /* Off-white */
+  --color-divider: #e8e0d5;
+
+  /* Typography */
+  --font-script: "Great Vibes", "Lavishly Yours", cursive;
+  --font-serif: "Cormorant Garamond", "Noto Serif KR", Georgia, serif;
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Spacing */
+  --section-padding: 4rem 1.5rem;
+}
+
+/* Base */
+html {
+  scroll-behavior: smooth;
+}
+
+/* GSAP smooth scroll setup (optional) */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  background-image:
+    radial-gradient(1200px 600px at 10% -10%, #f3e6d6 0%, transparent 55%),
+    radial-gradient(900px 500px at 110% 10%, #f7eee6 0%, transparent 50%),
+    linear-gradient(180deg, #fdfcfb 0%, #fbf7f1 100%);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+/* App layout (app/page.tsx) */
+.page-shell {
+  max-width: 720px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: var(--color-background);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  border-left: 1px solid var(--color-divider);
+  border-right: 1px solid var(--color-divider);
+  overflow-x: hidden;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .page-shell {
+    border-radius: 28px;
+    margin: 24px auto;
+    overflow: hidden;
+  }
+}
+
+.section {
+  padding: 5rem 1.5rem;
+  position: relative;
+}
+
+.section-alt {
+  background: var(--color-secondary);
+}
+
+.section-inner {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.heading-script {
+  font-family: var(--font-script);
+}
+
+.heading-serif {
+  font-family: var(--font-serif);
+}
+
+.soft-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--color-divider);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+/* Shared section elements (Intro, Gallery, Venue, Transport, Contact, Footer) */
+.section-divider {
+  width: 72px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  margin: 1.5rem auto;
+  position: relative;
+}
+
+.section-divider::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  transform: translate(-50%, -50%);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-light);
+  border-radius: 2px;
+}
+
+/* ContactSection */
+.phone-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text);
+  text-decoration: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--color-divider);
+  transition: all 0.2s ease;
+}
+
+.phone-link:hover {
+  background: var(--color-primary-light);
+}
